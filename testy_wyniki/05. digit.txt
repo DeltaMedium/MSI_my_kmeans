@@ -1,0 +1,172 @@
+C:\Users\ktryb\PycharmProjects\k_means\venv\Scripts\python.exe C:\Users\ktryb\PycharmProjects\k_means\testy.py
+digit
+---->   METRYKA 1 : adjusted_rand_score    <----
+
+Mean scores:
+ [[0.16474283 0.00572839 0.         0.        ]]
+
+Ranks:
+ [[4.  3.  1.5 1.5]]
+
+Mean ranks:
+ [4.  3.  1.5 1.5]
+
+w-statistic:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my          0.00      1.00         1.00      1.00
+OPTICS             -1.00      0.00         1.00      1.00
+MeanShift          -1.00     -1.00         0.00      0.00
+DBscan             -1.00     -1.00         0.00      0.00 
+
+p-value:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my          1.00      0.32         0.32      0.32
+OPTICS              0.32      1.00         0.32      0.32
+MeanShift           0.32      0.32         1.00      1.00
+DBscan              0.32      0.32         1.00      1.00
+
+Advantage:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my             0         1            1         1
+OPTICS                 0         0            1         1
+MeanShift              0         0            0         0
+DBscan                 0         0            0         0
+
+Statistical significance (alpha = 0.05):
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my             0         0            0         0
+OPTICS                 0         0            0         0
+MeanShift              0         0            0         0
+DBscan                 0         0            0         0
+---->   METRYKA 2 : v_measure_score        <----
+
+Mean scores:
+ [[2.75872249e-01 2.40398232e-01 4.34098721e-16 4.34098721e-16]]
+
+Ranks:
+ [[4.  3.  1.5 1.5]]
+
+Mean ranks:
+ [4.  3.  1.5 1.5]
+
+w-statistic:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my          0.00      1.00         1.00      1.00
+OPTICS             -1.00      0.00         1.00      1.00
+MeanShift          -1.00     -1.00         0.00      0.00
+DBscan             -1.00     -1.00         0.00      0.00 
+
+p-value:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my          1.00      0.32         0.32      0.32
+OPTICS              0.32      1.00         0.32      0.32
+MeanShift           0.32      0.32         1.00      1.00
+DBscan              0.32      0.32         1.00      1.00
+
+Advantage:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my             0         1            1         1
+OPTICS                 0         0            1         1
+MeanShift              0         0            0         0
+DBscan                 0         0            0         0
+
+Statistical significance (alpha = 0.05):
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my             0         0            0         0
+OPTICS                 0         0            0         0
+MeanShift              0         0            0         0
+DBscan                 0         0            0         0
+---->   METRYKA 3 : homogeneity_score      <----
+ 
+Mean scores:
+ [[2.16907983e-01 1.79252671e-01 2.17049361e-16 2.17049361e-16]]
+
+Ranks:
+ [[4.  3.  1.5 1.5]]
+
+Mean ranks:
+ [4.  3.  1.5 1.5]
+
+w-statistic:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my          0.00      1.00         1.00      1.00
+OPTICS             -1.00      0.00         1.00      1.00
+MeanShift          -1.00     -1.00         0.00      0.00
+DBscan             -1.00     -1.00         0.00      0.00 
+
+p-value:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my          1.00      0.32         0.32      0.32
+OPTICS              0.32      1.00         0.32      0.32
+MeanShift           0.32      0.32         1.00      1.00
+DBscan              0.32      0.32         1.00      1.00
+
+Advantage:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my             0         1            1         1
+OPTICS                 0         0            1         1
+MeanShift              0         0            0         0
+DBscan                 0         0            0         0
+
+Statistical significance (alpha = 0.05):
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my             0         0            0         0
+OPTICS                 0         0            0         0
+MeanShift              0         0            0         0
+DBscan                 0         0            0         0
+---->   METRYKA 4 : completeness_score     <----
+
+Mean scores:
+ [[0.43909301 0.36652261 1.         1.        ]]
+
+Ranks:
+ [[2.  1.  3.5 3.5]]
+
+Mean ranks:
+ [2.  1.  3.5 3.5]
+
+w-statistic:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my          0.00      1.00        -1.00     -1.00
+OPTICS             -1.00      0.00        -1.00     -1.00
+MeanShift           1.00      1.00         0.00      0.00
+DBscan              1.00      1.00         0.00      0.00 
+
+p-value:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my          1.00      0.32         0.32      0.32
+OPTICS              0.32      1.00         0.32      0.32
+MeanShift           0.32      0.32         1.00      1.00
+DBscan              0.32      0.32         1.00      1.00
+
+Advantage:
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my             0         1            0         0
+OPTICS                 0         0            0         0
+MeanShift              1         1            0         0
+DBscan                 1         1            0         0
+
+Statistical significance (alpha = 0.05):
+               K_Means_my    OPTICS    MeanShift    DBscan
+----------  ------------  --------  -----------  --------
+K_Means_my             0         0            0         0
+OPTICS                 0         0            0         0
+MeanShift              0         0            0         0
+DBscan                 0         0            0         0
+
+Process finished with exit code 0
